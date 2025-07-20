@@ -28,12 +28,6 @@ const Navigation = () => {
                 <span className="text-gray-600 text-sm hidden sm:block mr-2">
                   Hi, <span className="font-medium text-gray-900">{user.username}</span>
                 </span>
-                <Link 
-                  to="/dashboard" 
-                  className="px-3 py-1.5 text-gray-700 hover:text-green-600 font-medium transition"
-                >
-                  Dashboard
-                </Link>
                 <button 
                   onClick={handleLogout} 
                   className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md font-medium transition"
